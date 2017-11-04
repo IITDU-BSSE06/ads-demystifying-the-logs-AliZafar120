@@ -1,0 +1,7 @@
+#!/usr/bin/python
+
+import sys
+files=set()
+for line in sys.stdin:
+	files.add(line)
+print len(files)
