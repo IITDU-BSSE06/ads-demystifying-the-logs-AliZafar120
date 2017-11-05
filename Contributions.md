@@ -1,2 +1,2 @@
 # Contributions File
-- I have taken help from from pritom saha akash about python syntax.
+I have taken help from pritom saha akash about python syntax.
