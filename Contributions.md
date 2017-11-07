@@ -1,7 +1,7 @@
 # Contributions File
 I have taken help from pritom saha akash about python syntax.
 I also saw answers in https://github.com/P7h/IntroToHadoopAndMR__Udacity_Course link but i did not follow it.
-Although i took idea  from muna, sajid, toufiq vaiya( means why their answers differ from mine however finally i remained fixed on my idea an submitting final submission honestly) but at last i made my code unique and i think it is different from others.
+Although i took idea  from muna, sajid, toufiq vaiya( means why their answers differ from mine however finally i remained fixed on my idea of submitting final submission honestly) but at last i made my code unique and i think it is different from others.
 
 In 1 and 2 the result matched with all others.
 
