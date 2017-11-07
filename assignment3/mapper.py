@@ -6,5 +6,4 @@ for line in sys.stdin:
 	if len(data) > 1 :
 		pathname = data[6]
 		pathname=urlparse(pathname).netloc+urlparse(pathname).path
-		filename=urlparse(pathname).path
-		print "{0}\t{1}".format(pathname,filename)
+		print "{0}".format(pathname)
