@@ -6,6 +6,6 @@ Although i took idea  from muna, sajid, toufiq vaiya( means why their answers di
 In 1 and 2 the result matched with all others.
 
 However in 3 the result differed because, some of the students gave idea of using len(data)==10 and some other gave len(data)>1
-but i took split at "GET ", and obtained url where GET method was applied. It is where the file is hit or obtained by requesting the website. I applied urlparse.netloc to obtain web address like www.a.com and urlparse.path for path to file like /displaytitle.php. So the file address considered was urlparse.netloc+urlparse.path. It was done because http://www.a.com/displaytitle.php?s=19 http://www.a.com/displaytitle.php?s=20 (seen in log files) as urlparse.netloc+urlparse.path=www.a.com/displaytitle.php will not be considered different. It will be considered same file.
+but i took split at "GET ", and obtained url where GET method was applied. It is where the file is hit or obtained by requesting the website. I applied urlparse.netloc to obtain web address like www.a.com and urlparse.path for path to file like /displaytitle.php. So the file address considered was urlparse.netloc+urlparse.path. It was done because http://www.a.com/displaytitle.php?s=19 http://www.a.com/displaytitle.php?s=20 (seen similar example in log files) as urlparse.netloc+urlparse.path=www.a.com/displaytitle.php will not be considered different. It will be considered same file.
 
 In unique files also i considered urlparse.netloc+urlparse.path as unique.
