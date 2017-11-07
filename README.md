@@ -1,4 +1,4 @@
-#Submission Detail 
+# Submission Detail 
 The process i followed and reason behind each program is given in contribution. My contributions were also stated there
 
 # ADS01
