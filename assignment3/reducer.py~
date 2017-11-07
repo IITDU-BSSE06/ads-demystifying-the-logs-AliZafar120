@@ -19,4 +19,4 @@ for filename in sys.stdin:
 if maxcount<hitcount:
 	maxcount=hitcount
 	maxhitfile=oldfile			
-print "{0} was hitted max times. The full path is {1}".format(maxhitfile,urlparse(maxhitfile).path)
+print "{0} was hitted max times. The full path is {1}".format(urlparse(maxhitfile).path,maxhitfile)
